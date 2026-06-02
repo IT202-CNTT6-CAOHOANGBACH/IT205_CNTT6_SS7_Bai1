@@ -2,10 +2,9 @@ student_name = "  nguYEn vAn a  "
 student_code = "  rk-001-python  "
 email = "  Student01@GMAIL.COM  "
 
-student_name = student_name.strip().title()
-student_code = student_code.strip().upper()
-email = email.strip().lower()
-
-print("Họ tên:", student_name)
-print("Mã học viên:", student_code)
-print("Email:", email)
+student_name_reset = student_name.title().strip()
+student_code_reset = student_code.upper().strip()
+email_reset = email.lower().strip()
+print("Họ tên:", student_name_reset)
+print("Mã học viên:", student_code_reset)
+print("Email:", email_reset)
